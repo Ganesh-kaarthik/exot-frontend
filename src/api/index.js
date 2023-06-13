@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'https://flow-clone.onrender.com/'})
+const API = axios.create({ baseURL: 'https://dynamic-haupia-24feaa.netlify.app/'})
 
 
 API.interceptors.request.use((req) => {
